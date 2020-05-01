@@ -1,1 +1,8 @@
-// Empty JS for your own code to be here
+console.log("JavaScript carregado")
+
+function valida() {
+    const cpf = document.getElementById("cpf").value
+    console.log(`CPF: ${cpf}`)
+}
+
+
