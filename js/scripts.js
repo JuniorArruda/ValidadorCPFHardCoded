@@ -8,7 +8,8 @@ function valida() {
     const cpf = document.getElementById("cpf").value
     if (cpf.length == 11) {
         setVisibility(sucessAlert, 1)
-    } else {
+    }
+    else {
         setVisibility(failedAlert, 1)
     }
 
